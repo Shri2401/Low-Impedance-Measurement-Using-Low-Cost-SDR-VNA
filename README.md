@@ -15,28 +15,20 @@ The 4-point Kelvin method is used for accurate low impedance measurement. This s
 ## 1 & 2 Port Methods
 
 - **2-Port Method (Z < 0.1 Ohms):**
-  ![2-Port Method](images/2_port_method.png)
+  ![2-Port Method](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/port2.png)
 
 - **1-Port Method (Z > 0.1 Ohms):**
-  ![1-Port Method](images/1_port_method.png)
+  ![1-Port Method](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/1port.png)
 
 ## SDR VNA Calibration
 
 SDR VNA calibration involves open, short, load, and through measurements to ensure accurate impedance measurements.
 
-![SDR VNA Calibration](images/sdr_vna_calibration.png)
-
-## Correlation in Measured & Simulated Resistor Impedance
-
-Comparing the measured and simulated impedance of resistors helps validate the measurement accuracy.
-
-![Correlation in Measured & Simulated Resistor Impedance](images/correlation_measured_simulated.png)
-
 ## R & L Characteristics of SMT Resistors
 
 The R and L characteristics of SMT resistors are modeled to understand their impedance behavior across different frequencies.
 
-![R & L Characteristics of SMT Resistors](images/r_l_characteristics_smt_resistors.png)
+![R & L Characteristics of SMT Resistors](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/Result.png)
 
 ## Lowest Impedance Measured by SDR VNA
 
@@ -44,12 +36,14 @@ The SDR VNA can measure very low impedances, down to the noise floor of the devi
 
 ![Lowest Impedance Measured by SDR VNA](images/lowest_impedance_measured.png)
 
-## RLC Equivalent Z for Capacitors
+## Takeaways
 
-Examining the RLC equivalent impedance for different types of capacitors, such as MLCC, electrolytic, and tantalum capacitors.
+1. The 2-port method can eliminate the artifacts associated with contact impedance of the probes or fixturing to the DUT.
+2. The 2-port method is a low-cost and reliable method for Low Z Measurement.
+3. First order RL models can be used to hack the impedances measured with the 2-port method to correlate measured & simulated data.
+4. SDR VNA can measure resistances & inductances in the mOhm and pH range respectively.
+5. ESL of components depends on their footprint.
 
-![RLC Equivalent Z for Capacitors](images/rlc_equivalent_z_capacitors.png)
+## Questions?
 
-## ESL of MLCC with Different Via Positions
-
-The equivalent series inductance (ESL) of MLCCs varies with the via position, affecting t
+If you have any questions, please feel free to ask.
