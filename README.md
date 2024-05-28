@@ -15,10 +15,12 @@ The 4-point Kelvin method is used for accurate low impedance measurement. This s
 ## 1 & 2 Port Methods
 
 - **2-Port Method (Z < 0.1 Ohms):**
-  ![2-Port Method](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/port2.png)
+  
+![2-Port Method](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/port2.png)
 
 - **1-Port Method (Z > 0.1 Ohms):**
-  ![1-Port Method](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/1port.png)
+  
+![1-Port Method](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/1port.png)
 
 ## SDR VNA Calibration
 
@@ -28,13 +30,15 @@ SDR VNA calibration involves open, short, load, and through measurements to ensu
 
 The R and L characteristics of SMT resistors are modeled to understand their impedance behavior across different frequencies.
 
+### Plot results
 ![R & L Characteristics of SMT Resistors](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/Result.png)
 
 ## Lowest Impedance Measured by SDR VNA
 
 The SDR VNA can measure very low impedances, down to the noise floor of the device.
 
-![Lowest Impedance Measured by SDR VNA](images/lowest_impedance_measured.png)
+### Plot results
+![Lowest Impedance Measured by SDR VNA](https://github.com/Shri2401/Low-Impedance-Measurement-Using-Low-Cost-SDR-VNA/blob/main/supporting%20pictures/lowest%20measurement.png)
 
 ## Takeaways
 
